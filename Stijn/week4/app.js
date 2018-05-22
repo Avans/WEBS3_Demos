@@ -1,0 +1,2 @@
+
+var bordCtrl = new BordController();

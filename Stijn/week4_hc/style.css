@@ -1,0 +1,30 @@
+.disco-tegel{
+    background-color:#2e2e2e;
+    color:white;
+    padding:30px;
+    border:2px solid black;
+    box-shadow: 2px 5px 0 0 magenta;
+}
+
+.highlight{
+    background-color:lime;
+}
+
+.bord
+{
+    width:300px;
+    height: 300px;
+    border:1px solid gray;  
+    position: relative;
+}
+
+.veld
+{
+    position: absolute;
+    width: 100px; height: 100px;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 500%
+}
