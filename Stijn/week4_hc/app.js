@@ -3,7 +3,7 @@ $(function () {
     $('#game').on('mouseenter', '.disco-tegel', function () {
         $(this).css('background-color', getRandomColor());
     }).on('mouseleave', '.disco-tegel', function () {
-        $(this).css('background-color', '#')
+        $(this).css('background-color', '#2e2e2e');
     })
 
     $('#add').on('click', function(){
@@ -15,11 +15,10 @@ $(function () {
         var letters = '0123456789ABCDEF';
         var color = '#';
         for (var i = 0; i < 6; i++) {
-            color += letters[Math.floor(Math.random() * 16)];
+            color += letters[Math.floor(Math.random() * letters.length)];
         }
         return color;
     }
-
-
+ 
 });
 
