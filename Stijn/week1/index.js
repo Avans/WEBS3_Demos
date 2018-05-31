@@ -2,12 +2,12 @@
 
 
 
-var mijnButtons = document.querySelectorAll('button');
+var myButtons = document.querySelectorAll('button');
 
 
-for(var i = 0; i < mijnButtons.length; i++)
+for(var i = 0; i < myButtons.length; i++)
 {
-    var b = mijnButtons[i];
+    var b = myButtons[i];
     b.addEventListener('click', function(){
         MakeGreen(b);
     });
